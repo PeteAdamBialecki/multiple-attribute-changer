@@ -1,4 +1,4 @@
-<table class="table">
+<!-- <table class="table">
     <thead>
         <tr>
             <th class="sort-key asc">
@@ -91,4 +91,90 @@
             <td>ZABCD1234567</td>
         </tr>
     </tbody>
-</table>
+</table> -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Multiple Attribute Changer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheet.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body class="scroll-assist">
+	<div class="main-container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="sort-key asc"><a href="#">Pet Name </a></th>
+                    <th><a href="#">Owner (Last, First)</a></th>
+                    <th><a href="#">Species</a></th>
+                    <th><a href="#">Breed</a></th>
+                    <th><a href="#">ID</a></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Fluffy
+                        <div class="table-row__expanded-content">
+                            <data-key>Sex: </data-key> <data-value>Male</data-value><br />
+                            <data-key>DOB: </data-key> <data-value>12/08/2010</data-value> <br />
+                            <data-key>Weight: </data-key> <data-value>20 lbs</data-value> <br />
+                            <data-key>Location: </data-key> <data-value>Kennel 2B</data-value> <br />
+                            <data-key>Temperament: </data-key> <data-value>Aggresive</data-value> <br />
+                            <data-key>Allergies: </data-key> <data-value>Sulfa, Penicillin, Peanuts</data-value>
+                        </div>
+                    </td>
+                    <td>Anderson, James</td>
+                    <td>Dog</td>
+                    <td>Bulldog-Shitzu</td>
+                    <td>ABCDE1234567</td>
+                </tr>
+                <tr>
+                    <td>Feather</td>
+                    <td>Michelle Charlotte, <br /> Angel Vanessa</td>
+                    <td>Cat</td>
+                    <td>American Bobtail</td>
+                    <td>FGHIJ1234567</td>
+                </tr>
+                <tr>
+                    <td>Fluffer-Nutter</td>
+                    <td>Rakerstraw, Rickey</td>
+                    <td>Dog</td>
+                    <td>American Eskimo</td>
+                    <td>KLMNO1234567</td>
+                </tr>
+                <tr>
+                    <td>Farley</td>
+                    <td>Cunningham, Stephanie</td>
+                    <td>Dog</td>
+                    <td>Pomeranian</td>
+                    <td>PQRST1234567</td>
+                </tr>
+                <tr>
+                    <td>Fuzzy</td>
+                    <td>Venice, Harding</td>
+                    <td>Cat</td>
+                    <td>Burmese</td>
+                    <td>UVWXY1234567</td>
+                </tr>
+                <tr class="alphabet-label">
+                    <td>G</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Goldie</td>
+                    <td>Cherilyn, Mitchener</td>
+                    <td>Dog</td>
+                    <td>Chihuahua-Maltese</td>
+                    <td>ZABCD1234567</td>
+                </tr>
+            </tbody>
+        </table>
+	</div>
+	<script src="scripts.js"></script>
+</body>
+</html>
